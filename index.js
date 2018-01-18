@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const args = process.argv.slice(2)
 
-console.log(args.join(" 👏 "))
+module.exports = function(words) {
+				return words.split(" ").join(" 👏 ")
+}
 
