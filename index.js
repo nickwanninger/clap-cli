@@ -2,6 +2,6 @@
 
 
 module.exports = function(words) {
-				return words.split(" ").join(" 👏 ")
+	return words.split(" ").join(" 👏 ")
 }
 
