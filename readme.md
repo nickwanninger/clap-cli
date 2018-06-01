@@ -4,10 +4,12 @@ It just puts claps between words.
 
 ---
 
-Installation
+Installation and Usage
 
 ```bash
-npm install -g clap-cli
+git clone git@github.com:nickwanninger/clap-cli.git
+cd clap-cli
+make
 ```
 
 ---
